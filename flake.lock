@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "clj2nix_src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620494918,
+        "narHash": "sha256-HStrxnVLTK/rnutAcYNTQbfYZUXtWx3kCJ2CTF80GGw=",
+        "owner": "hlolli",
+        "repo": "clj2nix",
+        "rev": "e6d09dd8c5cda68eb0534bd8501f2d5dcd7b2e95",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hlolli",
+        "repo": "clj2nix",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1629772723,
+        "narHash": "sha256-/BQRsa1FsGb7v4xylPnHhU2/chw3EFbCv5/ZaY/eNsE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "d5aadbefd650cb0a05ba9c788a26327afce2396c",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-21.05",
+        "type": "indirect"
+      }
+    },
+    "npmlock2nix_src": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-PEI5GOcF5sZfLKAHdDGFexE5/rxApdkDh+Q7YehpDKs=",
+        "path": "/home/sohalt/projects/summer-of-nix/npmlock2nix",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/sohalt/projects/summer-of-nix/npmlock2nix",
+        "type": "path"
+      }
+    },
+    "root": {
+      "inputs": {
+        "clj2nix_src": "clj2nix_src",
+        "nixpkgs": "nixpkgs",
+        "npmlock2nix_src": "npmlock2nix_src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
